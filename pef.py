@@ -93,14 +93,9 @@ class DistInfo(object):
 @click.option('-y', '--yes', is_flag=True, help="Don't ask for confirmation of uninstall deletions.")
 def cli(packages, yes):
     """Uninstall packages with all its dependencies."""
-    if not _is_venv():
-        click.secho(
-            click.style("Warning! You are not in an active virtual environment. This may purge system-level packages!",
-                        fg='red'))
-        sys.exit(1)
+    
     if not packages:
-        click.secho(click.style("Packages can't be empty, please run `pef --help` for more details.", fg='yellow'))
-        sys.exit(0)
+        click.secho(click.style("Packages is empty. just delete the folder.", fg='yellow'))
     prune = []
     pkg = pkg_resources.working_set
     df = DistInfo(pkg)
