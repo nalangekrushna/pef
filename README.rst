@@ -12,9 +12,6 @@ pef
 
 Enhancement for pip uninstall command, that it removes all dependencies of an uninstalled package.
 
-.. image:: https://asciinema.org/a/YlzQlq8TSaIs9NcVA9r9uN07L.png
-    :target: https://asciinema.org/a/YlzQlq8TSaIs9NcVA9r9uN07L
-
 ☤ Quickstart
 ------------
 
