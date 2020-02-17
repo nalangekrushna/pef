@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "pef"
+author = "krushnakumar nalange"
+author-email = "nalangekrushna@gmail.com"
+home-page = "https://github.com/nalangekrushna/pef"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+

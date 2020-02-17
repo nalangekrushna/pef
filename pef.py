@@ -1,8 +1,6 @@
-# coding: utf8
+"""pef uninstall pip-installed package with all its dependencies."""
 
-"""
-    pef uninstall pip-installed package with all its dependencies.
-"""
+__version__ = '0.1'
 
 import sys
 import subprocess
