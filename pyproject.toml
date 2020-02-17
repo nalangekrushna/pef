@@ -3,9 +3,9 @@ requires = ["flit_core >=2,<3"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "pef"
+module = "pef_krushna"
 author = "krushnakumar nalange"
 author-email = "nalangekrushna@gmail.com"
-home-page = "https://github.com/nalangekrushna/pef"
+home-page = "https://github.com/nalangekrushna/pef_krushna"
 classifiers = ["License :: OSI Approved :: Apache Software License"]
 
